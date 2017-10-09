@@ -6,7 +6,7 @@
 <body>
 
 <h1>Welcome To Smart Gardent</h1>
- <img src="https://picpost.postjung.com/data/184/184340-1-2995.jpg">
+ <h2><img src="https://picpost.postjung.com/data/184/184340-1-2995.jpg"></h2>
 <p></p>
 
 </body>
