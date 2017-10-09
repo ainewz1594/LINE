@@ -45,4 +45,4 @@ if (!is_null($events['events'])) {
 	}
 }
 echo "Kmutnb-SmartGardent Test";
-<img src="image.jpg">
+<img src="User.jpg">
