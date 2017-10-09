@@ -44,6 +44,6 @@ if (!is_null($events['events'])) {
 		}
 	}
 }
-<img src=”https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTof5IXVCuP3X76BMYQH6OaJey2vqrVUJnKetwc3WaOdgQ1xGHSrg”>;
+<img src=”https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTof5IXVCuP3X76BMYQH6OaJey2vqrVUJnKetwc3WaOdgQ1xGHSrg”>
 echo "Kmutnb-SmartGardent Test";
 
