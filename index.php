@@ -30,7 +30,6 @@
  <p align = "center"><img src="" hspace=20> สถานะการทำงาน
   <p></p>
 <center><input type="label" name="gender" id="On/off" value="                On/Off" ><br>
-  <center><input type="label" name="gender" id="On/off" value=".$temp." ><br>
 
  <?php
 
@@ -39,5 +38,6 @@ $humidity = file_get_contents('https://api.thingspeak.com/channels/345345/fields
 
  echo "temp is = ".$temp."<br>";
  echo "humidity is = ".$humidity;
+ <label id="txtuserId" name="txtuserId"><?php echo $rs[".$temp."]?></label>
 
 ?>
