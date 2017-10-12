@@ -39,5 +39,6 @@ $humidity = file_get_contents('https://api.thingspeak.com/channels/345345/fields
  echo "temp is = ".$temp."<br>";
  echo "humidity is = ".$humidity;
  echo $rs['$temp'];
+ <tr><td align="center"><?php echo $rs['temp']?></td>
 
 ?>
