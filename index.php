@@ -22,7 +22,7 @@
   <td align="center"><iframe width="450" height="300" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/345345/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Humidity_percen&type=line"></iframe></td>
   </tr>
  </table>
- <p align = "center">สถานะการทำงาน<p></p>
+ <font color=#FF0000><FONT SIZE=6><p align = "center">สถานะการทำงาน</FONT></FONT><br>
 <center><input type="label" name="gender" id="On/off" value="                On/Off" ><br>
 <FONT SIZE=6>
  <?php
