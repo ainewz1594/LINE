@@ -24,7 +24,7 @@
  </table>
  <p align = "center">สถานะการทำงาน<p></p>
 <center><input type="label" name="gender" id="On/off" value="                On/Off" ><br>
-
+<FONT SIZE=6>
  <?php
 date_default_timezone_set('Asia/Bangkok');
 $now = new DateTime();
@@ -33,7 +33,7 @@ $now = new DateTime();
  $temp = file_get_contents('https://api.thingspeak.com/channels/345345/fields/1/last.txt');
 $humidity = file_get_contents('https://api.thingspeak.com/channels/345345/fields/2/last.txt');
 
- echo <FONT SIZE=6>"temp is = ".$temp.</FONT>"<br>";
+ echo "temp is = ".$temp."<br>";
  echo "humidity is = ".$humidity."<br>";
  echo "Time Update = ".$datenow."<br>";
 ?>
