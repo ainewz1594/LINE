@@ -18,7 +18,6 @@
 <h2><img src="http://www.vesternet.com/media/wysiwyg/GreenIQ/GreenIQ_system.jpg"></h2>
 <p>หน้าต่างแสดงผล</p>
 <button onClick = "window.location = 'https://smart-kmutnb.herokuapp.com/'"> Refresh </button>
-<button onClick><a href="file:index2.php">LOGIN</a></button>
 <p> <p>
 <table align="center">
 <tr algin="center">
