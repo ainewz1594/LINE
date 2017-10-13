@@ -10,10 +10,13 @@
 <style type="text/css">
   body { background-color: #ffffff; }
 </style>
+  p {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+
+}
 <body>
-
-
-
 <center> <h1>Welcome To Smart Gardent Control System</h1>
 <h2><img src="http://www.vesternet.com/media/wysiwyg/GreenIQ/GreenIQ_system.jpg"></h2>
 <p>หน้าต่างแสดงผล</p>
