@@ -13,7 +13,7 @@
 <body>
 <center><h1><font color=#330066>Welcome To Smart Gardent Control System</FONT></h1>
 <h2><img src="http://www.vesternet.com/media/wysiwyg/GreenIQ/GreenIQ_system.jpg"></h2>
-<font color=#000080><FONT SIZE=5>หน้าต่างแสดงผล</FONT></FONT><br>
+<font color=#000080><FONT SIZE=5>หน้าต่างแสดงผล <font color=#000080>จุดทดสอบ</FONT></FONT></FONT><br>
 <br>
 <button onClick = "window.location = 'https://smart-kmutnb.herokuapp.com/'"> Refresh </button><br>
   <p> </p>
