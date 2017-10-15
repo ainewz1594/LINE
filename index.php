@@ -23,6 +23,8 @@
   <td align="center"><iframe width="450" height="300" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/345345/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&days=1&results=20&title=Humidity_percen&type=line&update=60"></iframe></td>
   </tr>
  </table>
+  <p> </p>
+<font color=#000080><FONT SIZE=5> สถานะการทำงาน </FONT></FONT><br>
   
  <canvas id="myCanvas" width="200" height="100"
 style="border:5px solid pink;">
@@ -33,8 +35,6 @@ var ctx=c.getContext("2d");
 ctx.font="30px Arial";
 ctx.fillText("Status: OFF",15,60);
 </script>
-<center><input type="label" name="gender" id="On/off" value="                On/Off" ><br>
-  <div class="circle-blue cell"></div>
   
 <FONT SIZE=4>
  <?php
