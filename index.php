@@ -25,7 +25,7 @@
  </table>
   <p> </p>
 <font color=#000080><FONT SIZE=5> สถานะการทำงาน </FONT></FONT><br>
-  
+  <center>  
  <canvas id="myCanvas" width="200" height="100"
 style="border:5px solid pink;">
 </canvas>
@@ -35,8 +35,10 @@ var ctx=c.getContext("2d");
 ctx.font="30px Arial";
 ctx.fillText("Status: OFF",15,60);
 </script>
+    <p> </p>
   
 <FONT SIZE=4>
+
  <?php
 date_default_timezone_set('Asia/Bangkok');
 $now = new DateTime();
