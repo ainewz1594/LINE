@@ -25,6 +25,7 @@
  </table>
  <font color=#FF0000><FONT SIZE=5><p align = "center">สถานะการทำงาน</FONT></FONT><br>
 <center><input type="label" name="gender" id="On/off" value="                On/Off" ><br>
+  <div class="circle-blue cell"></div>
 <FONT SIZE=4>
  <?php
 date_default_timezone_set('Asia/Bangkok');
