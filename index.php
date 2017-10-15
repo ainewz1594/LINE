@@ -38,3 +38,12 @@ $humidity = file_get_contents('https://api.thingspeak.com/channels/345345/fields
  echo "humidity is = ".$humidity."<br>";
  echo "Time Update = ".$datenow."<br>";
 ?>
+  
+  .circle-blue {
+  width: 10px;
+  height: 10px;
+  background: deepskyblue;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
