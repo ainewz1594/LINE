@@ -58,7 +58,7 @@ $score =(int) $temp ;
 		$grade="Temp is No ok";	}
 echo "อุณภูมิตอนนี้ ".$grade;
 	
-$score =(int) $humidity ;
+$score1 =(int) $humidity ;
 	if ($score1 >= 70 && $score1 < 90){
 		$grade1="humidity is OK";	}
 	else {
