@@ -51,8 +51,9 @@ $humidity = file_get_contents('https://api.thingspeak.com/channels/345345/fields
  echo "humidity is = ".$humidity."<br>";
  echo "Time Update = ".$datenow."<br>";
   
-function useif(.$temp){
-	if(.$temp < 30) print("Your Grade : A");
+function useif($temp){
+	if($temp < 30) print("Your Grade : A");
+		echo "temp is = low";
 }
 	
 echo "Time Update550 = ".$datenow."<br>";	
