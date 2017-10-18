@@ -51,11 +51,11 @@ $humidity = file_get_contents('https://api.thingspeak.com/channels/345345/fields
  echo "humidity is = ".$humidity."<br>";
  echo "Time Update = ".$datenow."<br>";
   
-$score = 77;
+$score =(int) $temp ;
 	if ($score<=80){
-		$grade="a";
+		$grade="B";
 	}
-echo "คะแนนของคุณคือ".$grade;
+echo "คะแนนของคุณคือ ".$grade;
   
 ?>
   
