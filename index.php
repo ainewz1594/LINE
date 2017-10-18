@@ -47,7 +47,7 @@ $now = new DateTime();
  $temp = file_get_contents('https://api.thingspeak.com/channels/345345/fields/1/last.txt');
 $humidity = file_get_contents('https://api.thingspeak.com/channels/345345/fields/2/last.txt');
 
- echo "temp is = ".$temp."<br>";
+ echo "temp is = ".$temp.; echo "อุณภูมิตอนนี้ ".$grade."<br>";
  echo "humidity is = ".$humidity."<br>";
  echo "Time Update = ".$datenow."<br>";
   
