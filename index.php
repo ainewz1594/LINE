@@ -52,10 +52,12 @@ $humidity = file_get_contents('https://api.thingspeak.com/channels/345345/fields
  echo "Time Update = ".$datenow."<br>";
   
 $score =(int) $temp ;
-	if ($score<=80){
-		$grade="B";
-	}
-echo "คะแนนของคุณคือ ".$grade;
+	if ($score >= 26 && $score < 35){
+		$grade="Temp is OK";	}
+	else {
+		$grade="Temp is No ok";	}
+		
+echo "อุณภูมิตอนนี้ ".$grade;
   
 ?>
   
