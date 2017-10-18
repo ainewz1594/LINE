@@ -24,7 +24,7 @@
   </tr>
  </table>
   <p> </p>
-<font color=#000080><FONT SIZE=5> สถานะการทำงาน </FONT></FONT><br>
+<font color=#000080><FONT SIZE=5> สถานะการทำงานของสปริงเกอร์ตัวที่ 1 </FONT></FONT><br>
   <center>  
  <canvas id="myCanvas" width="200" height="100"
 style="border:5px solid pink;">
