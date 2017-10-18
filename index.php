@@ -55,6 +55,8 @@ function useif($temp){
 	if($temp < 30) echo "temp is = Low";
 	if($temp >= 30 && $temp < 40) echo "temp is = High";
 }
+	
+echo "Time Update = ".$datenow."<br>";	
   
 ?>
   
