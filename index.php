@@ -55,7 +55,7 @@ function useif(.$temp){
 	if(.$temp < 30) print("Your Grade : A");
 }
 	
-echo "Time Update = ".$datenow."<br>";	
+echo "Time Update550 = ".$datenow."<br>";	
   
 ?>
   
