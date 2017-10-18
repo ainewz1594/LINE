@@ -47,16 +47,16 @@ $now = new DateTime();
  $temp = file_get_contents('https://api.thingspeak.com/channels/345345/fields/1/last.txt');
 $humidity = file_get_contents('https://api.thingspeak.com/channels/345345/fields/2/last.txt');
 
- echo "temp is = ".$temp.; echo "อุณภูมิตอนนี้ ".$grade."<br>";
- echo "humidity is = ".$humidity."<br>";
- echo "Time Update = ".$datenow."<br>";
-  
 $score =(int) $temp ;
 	if ($score >= 26 && $score < 35){
 		$grade="Temp is OK";	}
 	else {
 		$grade="Temp is No ok";	}
-echo "อุณภูมิตอนนี้ ".$grade."<br>";
+	
+ echo "temp is = ".$temp." , "; echo "อุณภูมิตอนนี้ ".$grade."<br>";
+ echo "humidity is = ".$humidity."<br>";
+ echo "Time Update = ".$datenow."<br>";
+  
 	
 $score1 =(int) $humidity ;
 	if ($score1 >= 70 && $score1 < 90){
