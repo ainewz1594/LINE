@@ -63,7 +63,7 @@ $score1 =(int) $humidity ;
  echo "temp is = ".$temp." , "; echo "อุณภูมิตอนนี้ ".$grade."<br>";
  echo "humidity is = ".$humidity." , "; echo "ความชื้นตอนนี้ ".$grade1."<br>";
 	 echo "Time Update = ".$datenow."<br>";
-	echo "Time Update = ".$timeupdate."<br>";
+	echo "Time Update1 = ".$now."<br>";
   	
 
 ?>
