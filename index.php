@@ -46,8 +46,6 @@ $now = new DateTime();
  $hvalue = $value;
  $temp = file_get_contents('https://api.thingspeak.com/channels/345345/fields/1/last.txt');
 $humidity = file_get_contents('https://api.thingspeak.com/channels/345345/fields/2/last.txt');
-$timeupdate = file_get_contents('https://api.thingspeak.com/channels/345345/created_at/1/last.txt');
-$datenow1 = $timeupdate->format("Y-m-d H:i:s");
 
 $score =(int) $temp ;
 	if ($score >= 26 && $score < 35){
