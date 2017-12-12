@@ -66,6 +66,7 @@ $score1 =(int) $humidity ;
   	
 ?>
 
+<script>
 {
  "version": "application/octet-stream",
  "allow_edit": true,
@@ -137,4 +138,5 @@ $score1 =(int) $humidity ;
  "columns": 3,
  "theme": "default"
 }
-  
+  </script>
+    <p> </p>
