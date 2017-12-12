@@ -65,3 +65,13 @@ $score1 =(int) $humidity ;
 
   	
 ?>
+	
+<?
+$json = file_get_contents('dashboard.json');
+$data = json_decode($json);
+$height = $data->height;
+$width = $data->width;
+?>
+<div>
+<object type="application/x-shockwave-flash" style="width:<? echo $width ?>px; height:<? echo $height ?>px" data="game.swf"><param name="movie" value="game.swf"></param></object>
+</div>
