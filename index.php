@@ -21,6 +21,8 @@
 <tr algin="center">
  <td align="center"><iframe width="450" height="300" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/345345/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&days=1&results=20&title=temp_C&type=line&update=60"></iframe></td>
   <td align="center"><iframe width="450" height="300" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/345345/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&days=1&results=20&title=Humidity_percen&type=line&update=60"></iframe></td>
+  <tr></tr>
+  <center><td align="center"><iframe width="450" height="300" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/345345/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=20&title=Soil Moisture_precen&type=line&update=60"></iframe></td></center>
   </tr>
  </table>
   <p> </p>
@@ -46,6 +48,7 @@ $now = new DateTime();
  $hvalue = $value;
  $temp = file_get_contents('https://api.thingspeak.com/channels/345345/fields/1/last.txt');
 $humidity = file_get_contents('https://api.thingspeak.com/channels/345345/fields/2/last.txt');
+$soil = file_get_contents('https://api.thingspeak.com/channels/345345/fields/3/last.txt');
 
 $score =(int) $temp ;
 	if ($score >= 26 && $score < 35){
@@ -54,14 +57,15 @@ $score =(int) $temp ;
 		$grade="Temp is No OK";	}
 
 $score1 =(int) $humidity ;
-	if ($score1 >= 70 && $score1 < 90){
+	if ($score1 >= 60 && $score1 < 80){
 		$grade1="humidity is OK";	}
 	else {
 		$grade1="humidity is No OK";	}
 	
  echo "temp is = ".$temp." , "; echo "อุณภูมิตอนนี้ ".$grade."<br>";
- echo "humidity is = ".$humidity." , "; echo "ความชื้นตอนนี้ ".$grade1."<br>";
-	 echo "Time Update = ".$datenow."<br>";
+ echo "humidity is = ".$humidity." , "; echo "ความชื้นตอนนี้ ".$grade1." %<br>";
+     echo "Soil Moisture = ".$soil." % <br>";
+     echo "Time Update = ".$datenow."<br>";
 
   	
 ?>
