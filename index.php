@@ -19,8 +19,8 @@
   <p> </p>
 <table align="center">
 <tr algin="center">
- <td align="center"><iframe width="450" height="300" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/345345/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&days=1&results=30&title=temp_C&type=line&update=60"></iframe></td>
-  <td align="center"><iframe width="450" height="300" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/345345/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&days=1&results=30&title=Humidity_percen&type=line&update=60"></iframe></td>
+ <td align="center"><iframe width="450" height="300" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/345345/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=30&title=temp_C&type=line&update=60"></iframe></td>
+  <td align="center"><iframe width="450" height="300" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/345345/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=30&title=Humidity_percen&type=line&update=60"></iframe></td>
   <tr></tr>
   <center><td align="center"><iframe width="450" height="300" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/345345/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=30&title=Soil Moisture_precen&type=line&update=60"></iframe></td></center>
   </tr>
