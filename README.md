@@ -87,25 +87,43 @@ void loop ()
  Serial.print (" L/hour\r\n"); //Prints "L/hour" and returns a  new line
 
 }
+
 // if (ArduinoSerial.available () > 0)
+
 //  {
+
 //        val = ArduinoSerial.readStringUntil('\n'); //อ่านข้อความจาก Arduino
+
 //        Serial.println(val);
+
 //        point = val.substring(1,2);
+
 //        state = val.substring(3,4);
+
 //        Serial.println("point = " + point + "state = " + state);
+
 //        cpoint = point.toInt();
+
 //        cstate = state.toInt();
 //
 //        if( cpoint == 1 ) {
+
 //          //// CONDITION ////
+
 //        }
+
 //        if( cpoint == 2 ) {
+
 //          //// CONDITION ////
+
 //        }
+
 //        if( cpoint == 3 ) {
+
 //          //// CONDITION ////
+
 //        }
+
 //  }
 
 //}
