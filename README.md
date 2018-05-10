@@ -1,4 +1,5 @@
 volatile int NbTopsFan; //measuring the rising edges of the signal
+
 volatile int NbTopsFan1; //measuring the rising edges of the signal
 volatile int NbTopsFan2; //measuring the rising edges of the signal
 int Calc1;
